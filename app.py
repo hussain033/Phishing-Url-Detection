@@ -1,4 +1,3 @@
-import gradio as gr
 from featureExtractor import featureExtraction
 from pycaret.classification import load_model, predict_model
 
@@ -10,9 +9,9 @@ def predict(url):
   result = predict_model(model, data = data)
   return result['prediction_label'][0]
 
-app = gr.Interface(fn=predict,
-             inputs="text",
-             outputs="text",
-            )
 if __name__ == "__main__":
-    app.launch(debug = True)
+    if(len(sys.argv) != 2):
+      print("Usage: python3 app.py URL")
+    else:
+      url = sys.argv[1]
+      print("The URL is predicted as"+predict(url))
