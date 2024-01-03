@@ -58,8 +58,8 @@ The machine learning model is developed on the Dataset created using LGBM Classi
 ### User Interface
 To use the model in a user interface, check out our Hugging Face space,
 [Phishing URL Detection](https://huggingface.co/spaces/Hussain033/Phishing-URL-Detection).
-![image](![image](https://github.com/hussain033/Phishing-Url-Detection/assets/83116894/deeb0c75-7b0c-4df6-9b98-6a4ef70aa9ad)
-)
+![image](https://github.com/hussain033/Phishing-Url-Detection/assets/83116894/deeb0c75-7b0c-4df6-9b98-6a4ef70aa9ad)
+
 
 
 It is an easy to use interface, built with gradio and hosted Hugging Face platform. 
