@@ -94,11 +94,3 @@ git clone https://github.com/hussain033/Phishing-Url-Detection
 ## Results
 
 The developed model achieves an accuracy rate of about 80% on unseen data. This high accuracy demonstrates the model's proficiency in detecting Phishing urls . 
-
-## Conclusion
-
-The Leaf Image Classification project provides an effective solution for plant species identification. By leveraging transfer learning with MobileNet_v2 and applying data augmentation, the model achieves an impressive accuracy rate. This system serves as a valuable tool for users seeking to identify and learn about plants.
-
-## Contribution
-
-Our immediate focus is on expanding the project's capabilities to encompass a wide array of leaf species. While it currently excels at recognizing 12 different species, our ultimate goal is for it to become the primary tool for recognizing a wide range of leaves.
