@@ -35,12 +35,12 @@ This dataset can be used to train machine learning models that can classify URLs
 phishing or benign. The models can then be used to identify phishing URLs in the 
 wild.
 Here are some of the key features of our dataset:
-1 The dataset is balanced, with 4000 phishing URLs and 4000 benign URLs. This is 
+1. The dataset is balanced, with 4000 phishing URLs and 4000 benign URLs. This is 
 important for training machine learning models, as it helps to ensure that the 
 models are not biased towards one class or the other.
-2 The dataset is relatively large, with 8000 URLs. This allows the machine learning 
+2. The dataset is relatively large, with 8000 URLs. This allows the machine learning 
 models to learn more complex patterns in the data.
-3 The dataset is diverse, with a variety of different features that can be used to 
+3. The dataset is diverse, with a variety of different features that can be used to 
 classify URLs. This makes the models more robust and less likely to be tricked by 
 phishing URLs that are not in the training data.
 
