@@ -50,7 +50,7 @@ This script meticulously analyzed each URL, extracting features that can effecti
 distinguish between phishing and benign URLs.
 Clustering and Dimentionaly reduction techniques are used to create new features from combination of high correlated features.
 
-### Model Development with MobileNet_v2 and Transfer Learning
+### Model Development
 The machine learning model is developed on the Dataset created using LGBM Classifier Algorithm. LightGBM is a fast, distributed, high performance gradient boosting framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. A gradient Boosting algorithm is based on ensemble learning where an ML model makes predictions based on n number of distinct models. From these models, this learning approach finds less biased and varied data points. It ensures that the successor decision tree will be better trained.
 
 ## Usage
