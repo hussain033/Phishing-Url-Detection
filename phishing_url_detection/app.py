@@ -1,7 +1,7 @@
 from featureExtractor import featureExtraction
 from pycaret.classification import load_model, predict_model
 
-model = load_model('phishingdetection')
+model = load_model('Phishing-Url-Detection/models/phishingdetection')
 
 
 def predict(url):
